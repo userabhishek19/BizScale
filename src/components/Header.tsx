@@ -26,9 +26,8 @@ const Header: React.FC = () => {
               <div className="w-10 h-10 bg-gradient-to-r from-blue-600 to-purple-600 rounded-xl flex items-center justify-center">
                 <Building2 className="w-6 h-6 text-white" />
               </div>
-              <span className="text-2xl font-bold bg-gradient-to-r from-blue-600 to-purple-600 bg-clip-text text-transparent">
-                BizScale
-              </span>
+                 <span className="text-2xl font-bold text-[#bfe0f0]" style={{ textShadow: '0 2px 4px #0E3D7B' }} >BizScale</span>
+
             </motion.div>
 
             {/* Search Bar - Desktop */}
